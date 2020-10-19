@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import { Board } from './components/Board';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Board />
     </div>
   );
 }
 
 export default App;
+
+//SQUARE
+//-- value & onclick function
+
+//BOARD
+// states
+// --boardstate array(9) squares set null
+// --turnstate X or O
+// handleclick
+// --copy boardstate
+// --if index is filled return
+// --put X or O
+// --calculate next turn
+// --set state of board
+// --set state of turn
+
+//CALCULATE THE WINNER

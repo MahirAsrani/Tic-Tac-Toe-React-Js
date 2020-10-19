@@ -1,3 +1,11 @@
+  # Tic Tac Toe using React Js
+<p style="text-align:center">
+
+![image](https://user-images.githubusercontent.com/23280462/96463479-62d2f280-1244-11eb-9fde-9e2b456d9c47.png)
+![tic-tac-demo](https://user-images.githubusercontent.com/23280462/96463339-4040d980-1244-11eb-9d57-7bd92f899df8.gif)
+
+</p>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
